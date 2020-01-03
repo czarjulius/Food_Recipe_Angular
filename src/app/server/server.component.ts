@@ -5,4 +5,7 @@ import { Component } from '@angular/core';
     templateUrl: './server.component.html'
 })
 
-export class ServerComponent{}
+export class ServerComponent{
+    id: number = 9;
+    status: string = 'single'
+}
