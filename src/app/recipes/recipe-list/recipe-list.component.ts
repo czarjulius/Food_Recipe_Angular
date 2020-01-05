@@ -7,7 +7,11 @@ import { Recipe } from '../recipe.model';
   styleUrls: ['./recipe-list.component.css']
 })
 export class RecipeListComponent implements OnInit {
-  recipe: Recipe[] = [];
+  recipes: Recipe[] = [
+    new Recipe('test one', 'very proteneous', 'https://asset-apac.unileversolutions.com/content/dam/unilever/knorr_world/nigeria/english/general_image/savoury/all/nkwobi-m-1212463.jpg.ulenscale.480x360.jpg '),
+    new Recipe('test one', 'very proteneous', 'https://asset-apac.unileversolutions.com/content/dam/unilever/knorr_world/nigeria/english/general_image/savoury/all/nkwobi-m-1212463.jpg.ulenscale.480x360.jpg '),
+    new Recipe('test one', 'very proteneous', 'https://asset-apac.unileversolutions.com/content/dam/unilever/knorr_world/nigeria/english/general_image/savoury/all/nkwobi-m-1212463.jpg.ulenscale.480x360.jpg ')
+  ];
 
   constructor() { }
 
